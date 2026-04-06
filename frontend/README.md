@@ -30,7 +30,7 @@ Database: MySQL
 Build Tool: Maven
 
 **Project Structure:**
-
+```text
 1.BACKEND
 
 backend/
@@ -57,7 +57,6 @@ backend/
  │     ├── application.properties
  │
  └── pom.xml
-
 2.FRONTEND:
 frontend/
  ├── src/
@@ -80,7 +79,7 @@ frontend/
  │     └── index.js
  │
  ├── package.json
-
+```
 **Modules:**
 Authentication (Register, Login)
 Record Management (Add, View, Update, Delete)
@@ -102,6 +101,14 @@ Record(id, patientId, disease, prescription, date)
 **Flow:**
 
 React → Axios → Controller → Service → Repository → MySQL → Response → UI
+
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/a498a31c-5089-4355-8a6a-1661fcdae312" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/23108152-8b6c-4f2b-8be0-194369014ec3" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/88abf990-6522-4aff-8f42-bea8ccc3469d" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/5473f8b4-8a01-485b-952c-2b84e5a47cfc" />
+
+
+
 
 
 
